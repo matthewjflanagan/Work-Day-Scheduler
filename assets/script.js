@@ -8,14 +8,33 @@
 
 // console.log('here')
 
-var container = $('.container')
+// var obj = {
+//     "flammable": "inflammable",
+//     "duh": "no duh"
+//   };
+//   $.each( obj, function( key, value ) {
+//     alert( key + ": " + value );
+//   });
 
-var divTimeblock = '<div class="row time-block"><div class="col-sm-2 hour">9am</div><textarea class="col-sm-8 description"></textarea><button class="col-sm-2 saveBtn">Save</button></div>'
+//display current day & time.
+$("#currentDay").text(moment().format("MMMM Do YYYY, h:mm:ss a")); 
 
-container.append(divTimeblock);
+//set items in local storage.
+localStorage.setItem(time, text);
 
-// Loop through 8 times and display time block 8 times
+// var container = $('.container')
 
+// var divTimeblock = ['<div class="row time-block"><div class="col-sm-2 hour">9am</div><textarea class="col-sm-8 description"></textarea><button class="col-sm-2 saveBtn">Save</button></div>'];
+
+
+
+// // Loop through 8 times and display time block 8 times
+
+// $.each(divTimeblock, function() {
+
+// });
+
+// container.append(divTimeblock);
 
 // Make the hour dynamic
 
