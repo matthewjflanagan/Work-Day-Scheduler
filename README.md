@@ -14,10 +14,12 @@ Added elements to the HTML to create rows of timeblocks for each hour of the wor
 
 ## Usage
 <div>
-![Screenshot of website] (assets\sceenshot.PNG)
+![Screenshot of website] (src="assets\sceenshot.PNG")
 
-https://matthewjflanagan.github.io/Work-Day-Scheduler/
-[Work Day Schedular] (https://matthewjflanagan.github.io/Work-Day-Scheduler/)
+assets\sceenshot.PNG
+
+
+[Work Day Schedular] https://matthewjflanagan.github.io/Work-Day-Scheduler/
 </div>
 ## Credits
 Participated in my first tutoring session for this homework and the material we went over was invaluable to the progress made on this assignment.
