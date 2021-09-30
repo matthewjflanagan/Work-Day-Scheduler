@@ -1,9 +1,7 @@
-# <Day-Planner>
+# <Work Day Schedular>
 
 ## Description
-In these modern times it is more important than ever to have a secure password! Remove the bias and possibility of passwords that are too simple with this Password Generator. You can select whether you'd like Uppercase letters, Lowercase letters, numbers, or special characters as well as a length from 8 - 128!
-
-I came away from designing this website with a deeper understanding of the ability to create multiple functions and have them operate as an array so that the website is able to pull information like from a list but each options can then present another range of options. 
+Create rows of timeblocks for each hour of the work day. The website needed the current time show, an area to write your tasks for each hour of the day and for the color of the rows to change based on if the task if in the future, past, or present.
 
 ## Table of Contents (Optional)
 - [Installation](#installation)
@@ -12,16 +10,17 @@ I came away from designing this website with a deeper understanding of the abili
 - [License](#license)
 
 ## Installation
-To start I needed to make the variable that are included in the javascript. For this it was the uppercase letters, lowercase letters, numbers, and special characters. Each variable was assigned a string with the corresponding content per description. I then needed to make a function that would allow the user to select which options he'd like to include in the password as well as the length of the password. I then needed to have each option selected to be randomized and produce the password based on the user's criteria. 
+Added elements to the HTML to create rows of timeblocks for each hour of the work day. Used JQuery to dynamically display the current time, used local storage so that the user can save his tasks for the day. looped through each row and dynamically changed the style of each row based on if the task if in the future, past, or present.
 
 ## Usage
 <div>
-// Screenshot
+![Screenshot of website] (assets\sceenshot.PNG)
 
-<a href="">This is a link to Day Planner</a>
+https://matthewjflanagan.github.io/Work-Day-Scheduler/
+[Work Day Schedular] (https://matthewjflanagan.github.io/Work-Day-Scheduler/)
 </div>
 ## Credits
-
+Participated in my first tutoring session for this homework and the material we went over was invaluable to the progress made on this assignment.
 
 ## License
 MIT License
@@ -47,7 +46,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Features
-
+Plan your work day! 
 
 ## How to Contribute
 If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
