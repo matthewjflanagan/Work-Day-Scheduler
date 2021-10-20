@@ -1,26 +1,23 @@
-# <Work Day Schedular>
+# Work Day Schedular
 
 ## Description
 Create rows of timeblocks for each hour of the work day. The website needed the current time show, an area to write your tasks for each hour of the day and for the color of the rows to change based on if the task if in the future, past, or present.
 
-## Table of Contents (Optional)
+## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 
 ## Installation
-Added elements to the HTML to create rows of timeblocks for each hour of the work day. Used JQuery to dynamically display the current time, used local storage so that the user can save his tasks for the day. looped through each row and dynamically changed the style of each row based on if the task if in the future, past, or present.
+- Added elements to the HTML to create rows of timeblocks for each hour of the work day 
+- Used JQuery to dynamically display the current time, used local storage so that the user can save his tasks for the day
+- Looped through each row and dynamically changed the style of each row based on if the task if in the future, past, or present
 
 ## Usage
-<div>
-![Screenshot of website] (src="assets\sceenshot.PNG")
+![https://matthewjflanagan.github.io/Work-Day-Scheduler/](assets/workdayschedulesceenshot.PNG)
+https://matthewjflanagan.github.io/Work-Day-Scheduler/
 
-assets\sceenshot.PNG
-
-
-[Work Day Schedular] https://matthewjflanagan.github.io/Work-Day-Scheduler/
-</div>
 ## Credits
 Participated in my first tutoring session for this homework and the material we went over was invaluable to the progress made on this assignment.
 
